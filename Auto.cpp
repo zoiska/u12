@@ -1,6 +1,3 @@
-//
-// Created by zoisk on 15.12.2023.
-//
 #include <iostream>
 #include "Auto.h"
 

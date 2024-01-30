@@ -1,12 +1,9 @@
-//
-// Created by zoisk on 15.12.2023.
-//
+#ifndef U12_12_4_H
+#define U12_12_4_H
+
 #include <iostream>
 
 using namespace std;
-
-#ifndef U12_12_4_H
-#define U12_12_4_H
 
 class Auto{
 public:

@@ -4,12 +4,12 @@
 using namespace std;
 
 void aufg2(int num) {
-    std::string var1, var2;
+    string var1, var2;
     for(num; num > 0; num--) {
-        std::cin >> var1;
+        cin >> var1;
         var2 += var1 + ", ";
     }
-    std::cout << var2 << std::endl;
+    cout << var2 << endl;
 }
 
 namespace HSHL {
@@ -22,7 +22,6 @@ namespace HSHL {
 int main() {
     string name = "Keving Stech";
 
-    HelloWorld();
     aufg2(5);
 
     HSHL::halloName(name);
