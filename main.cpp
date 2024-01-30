@@ -1,9 +1,16 @@
 #include <iostream>
-#include "12.1.h"
-#include "12.2.h"
-#include "12.4.h"
+#include "Auto.h"
 
 using namespace std;
+
+void aufg2(int num) {
+    std::string var1, var2;
+    for(num; num > 0; num--) {
+        std::cin >> var1;
+        var2 += var1 + ", ";
+    }
+    std::cout << var2 << std::endl;
+}
 
 namespace HSHL {
     string halloName(string name) {

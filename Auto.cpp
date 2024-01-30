@@ -2,7 +2,7 @@
 // Created by zoisk on 15.12.2023.
 //
 #include <iostream>
-#include "12.4.h"
+#include "Auto.h"
 
 void Auto::druckeDaten() {
     cout << getModellname() + ", " << getFarbe() + ", " << getLeistung() << ", " << getTankinhalt() << endl;
