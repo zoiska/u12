@@ -12,28 +12,31 @@ void aufg2(int num) {
     cout << var2 << endl;
 }
 
-namespace HSHL {
-    string halloName(string name) {
-        cout << "Hallo " + name + "!" << endl;
-        return name;
-    }
+string halloName(string name) {
+    cout << "Hallo " + name + "!" << endl;
+    return name;
 }
 
 int main() {
     string name = "Keving Stech";
 
-    aufg2(5);
+    //aufg2(5);
 
-    HSHL::halloName(name);
+    halloName(name);
 
     Auto BMW_SUV;
-    BMW_SUV.farbe = "weiss";
-    BMW_SUV.modellname = "X3 xDrive 30d";
-    BMW_SUV.leistung = 260;
-    BMW_SUV.tankinhalt = 67;
+    BMW_SUV.setFarbe("weiss");
+    BMW_SUV.setModellname("X3 xDrive 30d");
+    BMW_SUV.setLeistung(260);
+    BMW_SUV.setTankinhalt(67);
 
     BMW_SUV.fahren();
     BMW_SUV.druckeDaten();
+
+    Auto Kev_Car("Keving 1000", "Braun", 50, 36);
+
+    Kev_Car.fahren();
+    Kev_Car.druckeDaten();
 
     return 0;
 }

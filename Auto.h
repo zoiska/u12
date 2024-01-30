@@ -12,6 +12,8 @@ private:
     int leistung;
     int tankinhalt;
 public:
+    Auto();
+    Auto(string modellname, string farbe, int leistung, int tankinhalt);
     void druckeDaten();
     void fahren();
     void setFarbe(string farbe);

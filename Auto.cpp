@@ -6,8 +6,7 @@ void Auto::druckeDaten() {
 }
 
 void Auto::fahren() {
-    int temp = getTankinhalt();
-    setTankinhalt(temp - 1);
+    this->tankinhalt -= 1;
 }
 
 void Auto::setFarbe(string farbe) {
@@ -40,4 +39,13 @@ int Auto::getLeistung() const {
 
 int Auto::getTankinhalt() const {
     return this->tankinhalt;
+}
+
+Auto::Auto() = default;
+
+Auto::Auto(string modellname, string farbe, int leistung, int tankinhalt) {
+    this->modellname = modellname;
+    this->farbe = farbe;
+    this->leistung = leistung;
+    this->tankinhalt = tankinhalt;
 }
