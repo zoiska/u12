@@ -6,15 +6,14 @@
 using namespace std;
 
 class Auto{
-public:
+private:
     string farbe;
     string modellname;
     int leistung;
     int tankinhalt;
-
+public:
     void druckeDaten();
     void fahren();
-
     void setFarbe(string farbe);
     void setModellname(string modellname);
     void setLeistung(int leistung);

@@ -2,7 +2,7 @@
 #include "Auto.h"
 
 void Auto::druckeDaten() {
-    cout << getModellname() + ", " << getFarbe() + ", " << getLeistung() << ", " << getTankinhalt() << endl;
+    cout << getModellname() << ", " << getFarbe() << ", " << getLeistung() << ", " << getTankinhalt() << endl;
 }
 
 void Auto::fahren() {
